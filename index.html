@@ -28,12 +28,12 @@
 			<div data-role="content">
 				<h1>Hitchhikeer page!</h1>
 				<p><a href="#page1">Go back</a></p>
-				<form action="http://hichhikeme.herokuapp.com/post" method="post">
+				<form action="http://hichhikeme.herokuapp.com/post" method="post" data-ajax="false">
 					<p><input name="id" type="text"></p>
 					<p><input name="from" id="hitchFrom" type="text" /></p>
 					<p><input name="to" id="hitchTo" type="text" /></p>
 					<p><textarea name="desc" id="hitchDesc"></textarea></p>
-					<p><input id="send" type="button" value="Send"></p>
+					<p><input type="submit" value="Send" /></p>
 				</form>
 			</div>
 		</div>
