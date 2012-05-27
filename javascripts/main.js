@@ -13,7 +13,7 @@ function onDeviceReady() {
 		$.ajax({
 			url: "http://hichhikeme.herokuapp.com/post", 
 			type: "POST",
-			data: JSON.stringify(sendData), 
+			data: sendData, 
 			success: function(e) {
 				$("#success").append("Success!");
 			}
