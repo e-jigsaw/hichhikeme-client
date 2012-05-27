@@ -10,7 +10,8 @@ function onDeviceReady() {
 			to: $("#hitchTo").val(),
 			description: $("#hitchDesc").val()
 		};
-		$.post("http://hichhikeme.herokuapp.com/post", JSON.stringify(sendData), function(e) {
+		$("#success").append("append test");
+		$.post("http://hichhikeme.herokuapp.com/post", {json: JSON.stringify(sendData)}, function(e) {
 			$("#success").append("Success!");
 		});
 	});
