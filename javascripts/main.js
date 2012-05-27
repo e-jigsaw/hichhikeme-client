@@ -11,8 +11,12 @@ function onDeviceReady() {
 			description: $("#hitchDesc").val()
 		};
 		$("#success").append("append test");
-		$.post("http://hichhikeme.herokuapp.com/post", {json: JSON.stringify(sendData)}, function(e) {
-			$("#success").append("Success!");
+		$.ajax({
+			url: "http://hichhikeme.herokuapp.com/post", 
+			data: JSON.stringify(sendData), 
+			success: function(e) {
+				$("#success").append("Success!");
+			}
 		});
 	});
 }
