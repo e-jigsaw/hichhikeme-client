@@ -10,6 +10,5 @@ function onDeviceReady() {
 	$("#find").live("click", function(e) {
 		$("#success").append("Clicked");
 		$("form").submit();
-		$.mobile.changePage("#page4");
 	});
 })();
