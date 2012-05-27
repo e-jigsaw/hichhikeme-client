@@ -28,11 +28,13 @@
 			<div data-role="content">
 				<h1>Hitchhikeer page!</h1>
 				<p><a href="#page1">Go back</a></p>
-				<p><input name="from" id="hitchFrom" type="text" /></p>
-				<p><input name="to" id="hitchTo" type="text" /></p>
-				<p><textarea name="desc" id="hitchDesc"></textarea></p>
-				<p><a href="#page4" id="find" data-role="button">Find it!</a></p>
-				<p id="success">eee</p>
+				<form action="http://hichhikeme.herokuapp.com/post" method="post">
+					<p><input name="id" type="text"></p>
+					<p><input name="from" id="hitchFrom" type="text" /></p>
+					<p><input name="to" id="hitchTo" type="text" /></p>
+					<p><textarea name="desc" id="hitchDesc"></textarea></p>
+					<p><input type="submit" value="Next"></p>
+				</form>
 			</div>
 		</div>
 		<div data-role="page" id="page3">
