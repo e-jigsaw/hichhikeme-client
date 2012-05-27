@@ -10,7 +10,6 @@ function onDeviceReady() {
 			to: $("#hitchTo").val(),
 			description: $("#hitchDesc").val()
 		};
-		$("#success").append("append test");
 		$.ajax({
 			url: "http://hichhikeme.herokuapp.com/post", 
 			type: "POST",

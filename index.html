@@ -8,6 +8,7 @@
  		<script src="./javascripts/cordova-1.7.0.js"></script>
  		<script src="./javascripts/jquery-1.7.2.min.js"></script>
  		<script src="./javascripts/jquery.mobile-1.1.0.min.js"></script>
+ 		<script src="./javascripts/main.js"></script>
  	</head>
  	<body>
  		<div data-role="page" id="page1">
@@ -30,7 +31,8 @@
 				<p><input name="from" id="hitchFrom" type="text" /></p>
 				<p><input name="to" id="hitchTo" type="text" /></p>
 				<p><textarea name="desc" id="hitchDesc"></textarea></p>
-				<p><a href="#page4" id="find">Find it!</a></p>
+				<p><input id="find" type="button" value="Find it!" /></p>
+				<p id="success">eee</p>
 			</div>
 		</div>
 		<div data-role="page" id="page3">
@@ -48,7 +50,6 @@
 			</div>
 			<div data-role="content">
 				<p>Send data</p>
-				<p id="success">eee</p>
 				<p><a href="#page1">Go back</a></p>
 			</div>
 		</div>
