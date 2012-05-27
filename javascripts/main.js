@@ -4,6 +4,7 @@ function onDeviceReady() {
 	$.support.cors = true;
 	$.mobile.allowCrossDomainPages = true;
 	$("#find").live("click", function(e) {
+		$("#success").append("Clicked");
 		var sendData = {
 			id: "test",
 			from: $("#hitchFrom").val(),
@@ -20,3 +21,7 @@ function onDeviceReady() {
 		});
 	});
 }
+
+(function() {
+	
+})();
