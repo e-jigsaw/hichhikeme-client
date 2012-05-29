@@ -8,11 +8,11 @@
  		<script src="./javascripts/cordova-1.7.0.js"></script>
  		<script src="./javascripts/jquery-1.7.2.min.js"></script>
  		<script src="./javascripts/jquery.mobile-1.1.0.min.js"></script>
+ 		<script src="./javascripts/area_data.js"></script>
+ 		<script src="./javascripts/area.js"></script>
  		<script src="./javascripts/main.js"></script>
  	</head>
- 	<body>
-
-
+ 	<body onLoad="initAreaPulldown()">
  		<div data-role="page" id="page1">
 	 		<div data-role="header">
 		 		<h5 id="title">HitchhikeMe!</h5>
@@ -34,8 +34,10 @@
 				<p><a href="#page1">Go back</a></p>
 				<form action="http://hichhikeme.herokuapp.com/post" method="post" data-ajax="false">
 					<p><input name="id" type="text"></p>
-					<p><input name="from" id="hitchFrom" type="text" /></p>
-					<p><input name="to" id="hitchTo" type="text" /></p>
+					<p>
+						<select class="area_pd" name="pref" id="pref" onChange="changeLargeArea(this)"><option value="" selected>指定しない</option></select>
+						<select class="area_pd" name="l_area" id="l_area"><option value="" selected>指定しない</option></select>		
+					</p>
 					<p><textarea name="desc" id="hitchDesc"></textarea></p>
 					<p><input type="submit" value="Send" /></p>
 				</form>
