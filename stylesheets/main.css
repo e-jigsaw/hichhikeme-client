@@ -45,6 +45,14 @@ body {
 	padding:0px 0px 0px 0px;
 }
 
+#sellect_bg_dr{
+	width:480px;
+	height:800px;
+	background-image:url(../images/sellect_bg_dr.png);
+	margin:-10px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+
 #sellect_ballon{
 	width:356px;
 	height:70px;
@@ -104,6 +112,16 @@ body {
 	width:355px;
 	height:65px;
 	background-image:url(../images/sellect_submit_hh.png);
+	margin:20px 0px 0px 42px;
+	padding:0px 0px 0px 0px;
+	display: block;
+}
+
+
+#sellect_submit_dr{
+	width:355px;
+	height:65px;
+	background-image:url(../images/sellect_submit_dr.png);
 	margin:20px 0px 0px 42px;
 	padding:0px 0px 0px 0px;
 	display: block;
