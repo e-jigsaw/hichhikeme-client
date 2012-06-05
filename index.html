@@ -5,7 +5,8 @@
  		<meta name="viewport" content="width=device-width, initial-scale=1" />
  		<title>HitchhikeMe!</title>
  		<link href="./stylesheets/jquery.mobile-1.1.0.min.css" rel="stylesheet" type="text/css">
- 		<script src="./javascripts/cordova-1.7.0.js"></script>
+		<link href="./stylesheets/main.css" rel="stylesheet" type="text/css">
+  		<script src="./javascripts/cordova-1.7.0.js"></script>
  		<script src="./javascripts/jquery-1.7.2.min.js"></script>
  		<script src="./javascripts/jquery.mobile-1.1.0.min.js"></script>
  		<script src="./javascripts/area_data.js"></script>
@@ -13,35 +14,54 @@
  		<script src="./javascripts/main.js"></script>
  	</head>
  	<body onLoad="initAreaPulldown()">
+
  		<div data-role="page" id="page1">
-	 		<div data-role="header">
-		 		<h5 id="title">HitchhikeMe!</h5>
-		 	</div>
+		<div id="top_bg">
+	 		<div data-role="header"></div>
 		 	<div id="mainField" data-role="content">
-			 	<h1>Select which one</h1>
-			 	<p><a href="#page2">Hichhiker</a></p>
-			 	<p><a href="#page3">Driver</a></p>
+				<div id="top_balloon"></div>
+			 	<a href="#page2"><div id="top_hh"></div></a>
+			 	<a href="#page3"><div id="top_dr"></div></a>
 			</div>
+		</div>
 		</div>
 
 
 		<div data-role="page" id="page2">
+		<div id="sellect_bg_hh">
 			<div data-role="header">
-				<h5>HitchhikeMe!</h5>
 			</div>
 			<div data-role="content">
-				<h1>Hitchhikeer page!</h1>
+				<div id="sellect_ballon"></div>
+<!--
 				<p><a href="#page1">Go back</a></p>
+-->
+				<div id="sellect_from"></div><div id="sellect_from_ballon"></div>
+				<div id="sellect_cen_ballon"></div>
+
+				<div id="sellect_to_ballon"></div><div id="sellect_to"></div>
+
+				<div id="sellect_submit_hh"></div>
+				
+<!--
 				<form action="http://hichhikeme.herokuapp.com/post" method="post" data-ajax="false">
+
 					<p><input name="id" type="text"></p>
+
 					<p>
 						<select class="area_pd" name="pref" id="pref" onChange="changeLargeArea(this)"><option value="" selected>指定しない</option></select>
+
 						<select class="area_pd" name="l_area" id="l_area"><option value="" selected>指定しない</option></select>		
 					</p>
+
 					<p><textarea name="desc" id="hitchDesc"></textarea></p>
 					<p><input type="submit" value="Send" /></p>
 				</form>
-			</div>
+-->
+
+				</div>
+
+		</div>
 		</div>
 
 
