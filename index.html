@@ -8,8 +8,6 @@
  		<script src="./javascripts/cordova-1.7.0.js"></script>
  		<script src="./javascripts/jquery-1.7.2.min.js"></script>
  		<script src="./javascripts/jquery.mobile-1.1.0.min.js"></script>
- 		<script src="./javascripts/area_data.js"></script>
- 		<script src="./javascripts/area.js"></script>
  		<script src="./javascripts/main.js"></script>
  	</head>
  	<body onLoad="initAreaPulldown()">
@@ -31,10 +29,25 @@
 				<h1>Hitchhikeer page!</h1>
 				<p><a href="#page1">Go back</a></p>
 				<form action="http://hichhikeme.herokuapp.com/post" method="post" data-ajax="false">
-					<p><input name="id" type="text"></p>
+					<p><input name="id" type="text" /></p>
+					<p><input name="friend" type="text" /></p>
 					<p>
-						<select class="area_pd" name="pref" id="pref" onChange="changeLargeArea(this)"><option value="" selected>指定しない</option></select>
-						<select class="area_pd" name="l_area" id="l_area"><option value="" selected>指定しない</option></select>		
+						<select name="from">
+							<option value="1">A</option>
+							<option value="2">B</option>
+							<option value="3">C</option>
+							<option value="4">D</option>
+							<option value="5">E</option>
+						</select>
+					</p>
+					<p>
+						<select name="to">
+							<option value="1">A</option>
+							<option value="2">B</option>
+							<option value="3">C</option>
+							<option value="4">D</option>
+							<option value="5">E</option>
+						</select>
 					</p>
 					<p><textarea name="desc" id="hitchDesc"></textarea></p>
 					<p><input type="submit" value="Send" /></p>
