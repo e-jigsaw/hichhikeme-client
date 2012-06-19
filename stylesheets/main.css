@@ -2,6 +2,46 @@ body {
 	text-align:center;
 }
 
+
+#authentication_bg{
+	width:480px;
+	height:800px;
+	background-image:url(../images/authentication_bg.png);
+	margin:-10px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+#authentication_balloon{
+	width:356px;
+	height:70px;
+	background-image:url(../images/authentication_balloon.png);
+	margin:70px 52px 0px 47px;
+	padding:0px 0px 0px 0px;
+}
+
+
+#authentication_button01 a{
+	display:block;
+	width:230px;
+	height:230px;
+	background-image:url(../images/authentication_button01.png);
+	margin:110px 0px 0px 95px;
+	padding:0px 0px 0px 0px;
+}
+
+#authentication_button01 a:hover{
+	width:230px;
+	height:230px;
+	background-image:url(../images/authentication_button02.png);
+	margin:110px 0px 0px 95px;
+	padding:0px 0px 0px 0px;
+}
+
+
+
+
+
+
 #top_bg{
 	width:480px;
 	height:800px;

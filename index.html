@@ -13,29 +13,46 @@
  	</head>
  	<body>
 
+
+<!-- facebook認証ページ -->
  		<div data-role="page" id="page1">
+		<div id="authentication_bg">
+	 		<div data-role="header"></div>
+		 	<div id="mainField" data-role="content">
+				<div id="authentication_balloon"></div>
+			 	<div id="authentication_button01"><a href="#page2"></a></div>
+			</div>
+		</div>
+		</div>
+<!-- / facebook認証ページ -->
+
+
+
+
+<!-- TOP-ユーザーセレクトページ -->
+ 		<div data-role="page" id="page2">
 		<div id="top_bg">
 	 		<div data-role="header"></div>
 		 	<div id="mainField" data-role="content">
 				<div id="top_balloon"></div>
-			 	<a href="#page2"><div id="top_hh"></div></a>
-			 	<a href="#page3"><div id="top_dr"></div></a>
+			 	<a href="#page3"><div id="top_hh"></div></a>
+			 	<a href="#page4"><div id="top_dr"></div></a>
 			</div>
 		</div>
 		</div>
+<!-- / TOP-ユーザーセレクトページ -->
 
 
 
-
-
-		<div data-role="page" id="page2">
+<!-- hitchhiker用入力ページ -->
+		<div data-role="page" id="page3">
 		<div id="sellect_bg_hh">
 			<div data-role="header">
 			</div>
 			<div data-role="content">
 				<div id="sellect_ballon"></div>
 <!--
-				<p><a href="#page1">Go back</a></p>
+				<p><a href="#page2">Go back</a></p>
 -->
 				<div id="sellect_from"></div><div id="sellect_from_ballon"></div>
 				<div id="sellect_cen_ballon"></div>
@@ -72,19 +89,21 @@
 				</form>
 -->
 				</div>
-
 		</div>
 		</div>
+<!-- / hitchhiker用入力ページ -->
 
 
-		<div data-role="page" id="page3">
+
+<!-- Driver用入力ページ -->
+		<div data-role="page" id="page4">
 		<div id="sellect_bg_dr">
 			<div data-role="header">
 			</div>
 			<div data-role="content">
 				<div id="sellect_ballon"></div>
 <!--
-				<p><a href="#page1">Go back</a></p>
+				<p><a href="#page2">Go back</a></p>
 -->
 				<div id="sellect_from"></div><div id="sellect_from_ballon"></div>
 				<div id="sellect_cen_ballon"></div>
@@ -95,8 +114,11 @@
 			</div>
 		</dicv>
 		</div>
+<!-- /Driver用入力ページ -->
 
-		<div data-role="page" id="page4">
+
+
+		<div data-role="page" id="page5">
 			<div data-role="header">
 				<h5>HitchhikeMe!</h5>
 			</div>
