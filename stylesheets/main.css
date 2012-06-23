@@ -15,7 +15,7 @@ body {
 	width:356px;
 	height:70px;
 	background-image:url(../images/authentication_balloon.png);
-	margin:70px 52px 0px 47px;
+	margin:72px 52px 0px 47px;
 	padding:0px 0px 0px 0px;
 }
 
@@ -24,7 +24,7 @@ body {
 	width:230px;
 	height:230px;
 	background-image:url(../images/authentication_button01.png);
-	margin:110px 0px 0px 95px;
+	margin:125px 0px 0px 110px;
 	padding:0px 0px 0px 0px;
 }
 
@@ -32,13 +32,9 @@ body {
 	width:230px;
 	height:230px;
 	background-image:url(../images/authentication_button02.png);
-	margin:110px 0px 0px 95px;
+	margin:125px 0px 0px 110px;
 	padding:0px 0px 0px 0px;
 }
-
-
-
-
 
 
 #top_bg{
