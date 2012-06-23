@@ -129,7 +129,6 @@ body {
 	padding:0px 0px 0px 0px;
 }
 
-
 #sellect_to_ballon{
 	width:265px;
 	height:160px;
@@ -138,6 +137,7 @@ body {
 	padding:0px 0px 0px 0px;
 	display: block;
 }
+
 
 #sellect_to{
 	width:120px;
@@ -164,5 +164,38 @@ body {
 	background-image:url(../images/sellect_submit_dr.png);
 	margin:20px 0px 0px 42px;
 	padding:0px 0px 0px 0px;
+	display: block;
+}
+
+
+
+#form_from{
+	width:150px;
+	height:160px;
+	font-size:120%;
+	font-weight:bold;
+	margin:0px 0px 0px 0px;
+	padding:50px 30px 10px 60px;
+	display: block;
+}
+
+
+#form_to{
+	width:150px;
+	height:160px;
+	font-size:120%;
+	font-weight:bold;
+	margin:0px 0px 0px 0px;
+	padding:50px 10px 10px 0px;
+	display: block;
+}
+
+
+#form_cen{
+	width:160px;
+	height:180px;
+	font-size:120%;
+	margin:0px 0px 0px 0px;
+	padding:10px 10px 10px 40px;
 	display: block;
 }
