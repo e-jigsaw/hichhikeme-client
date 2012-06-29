@@ -97,35 +97,9 @@
 
 				<div id="sellect_to"></div>
 
-				<div id="sellect_submit_hh"></div>
+					<a href="#page5"><div id="sellect_submit_hh"></div></a>
 				
-<!--
-				<form action="http://hichhikeme.herokuapp.com/post" method="post" data-ajax="false">
-					<p><input name="id" type="text" /></p>
-					<p><input name="friend" type="text" /></p>
-					<p>
-						<select name="from">
-							<option value="1">A</option>
-							<option value="2">B</option>
-							<option value="3">C</option>
-							<option value="4">D</option>
-							<option value="5">E</option>
-						</select>
-					</p>
-					<p>
-						<select name="to">
-							<option value="1">A</option>
-							<option value="2">B</option>
-							<option value="3">C</option>
-							<option value="4">D</option>
-							<option value="5">E</option>
-						</select>
-					</p>
 
-					<p><textarea name="desc" id="hitchDesc"></textarea></p>
-					<p><input type="submit" value="Send" /></p>
-				</form>
--->
 				</div>
 		</div>
 		</div>
@@ -185,22 +159,43 @@
 				</div>
 				<div id="sellect_to"></div>
 
-				<div id="sellect_submit_dr"></div>
+				<a href="#page5"><div id="sellect_submit_dr"></div></a>
 			</div>
-		</dicv>
+		</div>
 		</div>
 <!-- /Driver用入力ページ -->
 
 
 
-		<div data-role="page" id="page5">
-			<div data-role="header">
-				<h5>HitchhikeMe!</h5>
-			</div>
-			<div data-role="content">
-				<p>Send data</p>
-				<p><a href="#page1">Go back</a></p>
+
+
+<!-- マッチング結果ページ -->
+ 		<div data-role="page" id="page5">
+		<div id="matching_bg">
+	 		<div data-role="header"></div>
+		 	<div id="mainField" data-role="content">
+				<div id="matching_balloon01">
+				<p>ここから</p>
+				<p>ここまで</p>
+				</div>
+				<div id="wrapper">
+						<div id="contents">
+						</div>
+
+						<div id="prev"></div>
+				</div>
+				<div id="next"></div>
+				</div>
+
+				<div id="matching_balloon02"></div>
+			 	<div id="matching_submit"></div>
 			</div>
 		</div>
+		</div>
+<!-- / マッチング結果ページ -->
+
+
+
+
  	</body>
  </html>
