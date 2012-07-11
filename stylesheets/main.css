@@ -7,17 +7,16 @@ body {
 	width:480px;
 	height:800px;
 	background-image:url(../images/authentication_bg.png);
-	margin:-10px 0px 0px 0px;
-	padding:0px 0px 0px 0px;
+	margin:0% 0% 0% 0%;
+	padding:0% 0% 0% 0%;
 }
-
 
 #authentication_balloon{
 	width:356px;
 	height:70px;
 	background-image:url(../images/authentication_balloon.png);
-	margin:70px 52px 0px 47px;
-	padding:0px 0px 0px 0px;
+	margin:10% 0% 0% 8%;
+	padding:0% 0% 0% 0%;
 }
 
 
@@ -26,33 +25,37 @@ body {
 	width:230px;
 	height:230px;
 	background-image:url(../images/authentication_button01.png);
-	margin:125px 0px 0px 115px;
-	padding:0px 0px 0px 0px;
+	margin:30% 0% 0% 22%;
+	padding:0% 0% 0% 0%;
 }
 
 #authentication_button01 a:hover{
 	width:230px;
 	height:230px;
 	background-image:url(../images/authentication_button02.png);
-	margin:125px 0px 0px 115px;
-	padding:0px 0px 0px 0px;
+	margin:30% 0% 0% 22%;
+	padding:0% 0% 0% 0%;
 }
+
+
+
+
 
 
 #top_bg{
 	width:480px;
 	height:800px;
 	background-image:url(../images/top_bg.png);
-	margin:-10px 0px 0px 0px;
-	padding:0px 0px 0px 0px;
+	margin:0% 0% 0% 0%;
+	padding:0% 0% 0% 0%;
 }
 
 #top_balloon{
 	width:356px;
 	height:70px;
 	background-image:url(../images/top_balloon.png);
-	margin:70px 52px 0px 47px;
-	padding:0px 0px 0px 0px;
+	margin:10% 0% 0% 8%;
+	padding:0% 0% 0% 0%;
 }
 
 
@@ -60,8 +63,8 @@ body {
 	width:356px;
 	height:156px;
 	background-image:url(../images/top_dr.png);
-	margin:80px 52px 0px 47px;
-	padding:0px 0px 0px 0px;
+	margin:20% 0% 10% 8%;
+	padding:0% 0% 0% 0%;
 }
 
 
@@ -69,8 +72,8 @@ body {
 	width:356px;
 	height:156px;
 	background-image:url(../images/top_hh.png);
-	margin:80px 52px 0px 47px;
-	padding:0px 0px 0px 0px;
+	margin:20% 0% 10% 8%;
+	padding:0% 0% 0% 0%;
 }
 
 
@@ -78,32 +81,32 @@ body {
 	width:480px;
 	height:800px;
 	background-image:url(../images/sellect_bg_hh.png);
-	margin:-10px 0px 0px 0px;
-	padding:0px 0px 0px 0px;
+	margin:0% 0% 0% 0%;
+	padding:0% 0% 0% 0%;
 }
 
 #sellect_bg_dr{
 	width:480px;
 	height:800px;
 	background-image:url(../images/sellect_bg_dr.png);
-	margin:-10px 0px 0px 0px;
-	padding:0px 0px 0px 0px;
+	margin:0% 0% 0% 0%;
+	padding:0% 0% 0% 0%;
 }
 
 #sellect_ballon{
 	width:356px;
 	height:70px;
 	background-image:url(../images/sellect_ballon.png);
-	margin:42px 52px 0px 47px;
-	padding:0px 0px 0px 0px;
+	margin:10% 0% 0% 8%;
+	padding:0% 0% 0% 0%;
 }
 
 #sellect_from{
 	width:120px;
 	height:160px;
 	background-image:url(../images/sellect_from.png);
-	margin:10px 0px 0px 22px;
-	padding:0px 0px 0px 0px;
+	margin:3% 0% 0% 5%;
+	padding:0% 0% 0% 0%;
 	display: block;
 }
 
@@ -112,8 +115,8 @@ body {
 	width:265px;
 	height:160px;
 	background-image:url(../images/sellect_from_ballon.png);
-	margin:-160px 0px 0px 140px;
-	padding:0px 0px 0px 0px;
+	margin:-38% 0% 0% 30%;
+	padding:0% 0% 0% 0%;
 	display: block;
 }
 
@@ -122,16 +125,16 @@ body {
 	width:230px;
 	height:130px;
 	background-image:url(../images/sellect_cen_ballon.png);
-	margin:10px 0px 0px 175px;
-	padding:0px 0px 0px 0px;
+	margin:2% 0% 0% 38%;
+	padding:0% 0% 0% 0%;
 }
 
 #sellect_to_ballon{
 	width:265px;
 	height:160px;
 	background-image:url(../images/sellect_to_ballon.png);
-	margin:80px 0px 0px 42px;
-	padding:0px 0px 0px 0px;
+	margin:18% 0% 0% 8%;
+	padding:0% 0% 0% 0%;
 	display: block;
 }
 
@@ -140,8 +143,8 @@ body {
 	width:120px;
 	height:160px;
 	background-image:url(../images/sellect_to.png);
-	margin:-160px 0px 0px 300px;
-	padding:0px 0px 0px 0px;
+	margin:-38% 0% 0% 66.5%;
+	padding:0% 0% 0% 0%;
 	display: block;
 }
 
@@ -149,8 +152,8 @@ body {
 	width:355px;
 	height:65px;
 	background-image:url(../images/sellect_submit_hh.png);
-	margin:20px 0px 0px 42px;
-	padding:0px 0px 0px 0px;
+	margin:6% 0% 0% 8%;
+	padding:0% 0% 0% 0%;
 	display: block;
 }
 
@@ -159,8 +162,8 @@ body {
 	width:355px;
 	height:65px;
 	background-image:url(../images/sellect_submit_dr.png);
-	margin:20px 0px 0px 42px;
-	padding:0px 0px 0px 0px;
+	margin:6% 0% 0% 8%;
+	padding:0% 0% 0% 0%;
 	display: block;
 }
 
@@ -171,8 +174,8 @@ body {
 	height:160px;
 	font-size:120%;
 	font-weight:bold;
-	margin:0px 0px 0px 0px;
-	padding:50px 30px 10px 60px;
+	margin:0% 0% 0% 0%;
+	padding:18% 15% 10% 30%;
 	display: block;
 }
 
@@ -182,8 +185,8 @@ body {
 	height:160px;
 	font-size:120%;
 	font-weight:bold;
-	margin:0px 0px 0px 0px;
-	padding:50px 10px 10px 0px;
+	margin:0% 0% 0% 0%;
+	padding:17% 8% 8% 5%;
 	display: block;
 }
 
@@ -192,34 +195,35 @@ body {
 	width:160px;
 	height:180px;
 	font-size:120%;
-	margin:0px 0px 0px 0px;
-	padding:10px 10px 10px 40px;
+	margin:0% 0% 0% 0%;
+	padding:6% 4% 4% 18%;
 	display: block;
 }
+
 
 
 #matching_bg{
 	width:480px;
 	height:800px;
 	background-image:url(../images/matching_bg.png);
-	margin:0px 0px 0px 0px;
-	padding:0px 0px 0px 0px;
+	margin:0% 0% 0% 0%;
+	padding:0% 0% 0% 0%;
 }
 
 #matching_balloon01{
 	width:350px;
 	height:120px;
 	background-image:url(../images/matching_balloon01.png);
-	margin:72px 52px 0px 47px;
-	padding:0px 0px 0px 0px;
+	margin:15% 0% 0% 8%;
+	padding:0.2% 0% 0% 0%;
 }
 
 #matching_balloon02{
 	width:362px;
 	height:270px;
 	background-image:url(../images/matching_balloon02.png);
-	margin:-20px 52px 0px 55px;
-	padding:0px 0px 0px 0px;
+	margin:-2% 0% 0% 11%;
+	padding:0% 0% 0% 0%;
 	clear:left;
 }
 
@@ -228,8 +232,8 @@ body {
 	width:355px;
 	height:65px;
 	background-image:url(../images/matching_submit.png);
-	margin:40px 0px 0px 55px;
-	padding:0px 0px 0px 0px;
+	margin:8% 0% 0% 12%;
+	padding:0% 0% 0% 0%;
 	display: block;
 }
 
@@ -237,8 +241,8 @@ body {
 #wrapper {
 	width:480px;
 	float:left;
-	margin:0px 20px 0px -92px;
-	padding:0px 0px 0px 0px;
+	margin:0% 4% 0% -20%;
+	padding:0% 0% 0% 0%;
 	display:inline;
 }
 
@@ -247,8 +251,10 @@ body {
 	width:52px;
 	height:85px;
 	float:right;
-	margin:30px 0px 0px 0px;
-	padding:0px 0px 0px 0px;
+	margin:8% 0% 0% 0%;
+	padding:0% 0% 0% 0%;
+//	margin:30px 0px 0px 0px;
+//	padding:0px 0px 0px 0px;
 	background-image:url(../images/matching_prev.png);
 }
 
@@ -265,17 +271,18 @@ body {
 	width:52px;
 	height:85px;
 	float:left;
-	margin:30px 0px 0px -17px;
-	padding:0px 0px 0px 0px;
+	margin:8% 0% 0% -4%;
+	padding:0% 0% 0% 0%;
 	background-image:url(../images/matching_next.png);
 }
 
-#container {
+
+
+//#matching_to {
 	width:100%;
 	margin-left:auto;
 	margin-right:auto;
 	text-align:left;
 	margin:0px px 0px 0px;
-	padding:30px 0px 0px 50px;
+	padding:0px 0px 0px 0px;
 }
-
