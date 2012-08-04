@@ -9,6 +9,8 @@ body {
 	background-image:url(../images/authentication_bg.png);
 	margin:0% 0% 0% 0%;
 	padding:0% 0% 0% 0%;
+	position:relative;
+	overflow: hidden;
 }
 
 #authentication_balloon{
@@ -48,6 +50,9 @@ body {
 	background-image:url(../images/top_bg.png);
 	margin:0% 0% 0% 0%;
 	padding:0% 0% 0% 0%;
+	position:relative;
+	overflow: hidden;
+
 }
 
 #top_balloon{
@@ -74,6 +79,7 @@ body {
 	background-image:url(../images/top_hh.png);
 	margin:20% 0% 10% 8%;
 	padding:0% 0% 0% 0%;
+
 }
 
 
@@ -83,6 +89,8 @@ body {
 	background-image:url(../images/sellect_bg_hh.png);
 	margin:0% 0% 0% 0%;
 	padding:0% 0% 0% 0%;
+	position:relative;
+	overflow: hidden;
 }
 
 #sellect_bg_dr{
@@ -91,6 +99,8 @@ body {
 	background-image:url(../images/sellect_bg_dr.png);
 	margin:0% 0% 0% 0%;
 	padding:0% 0% 0% 0%;
+	position:relative;
+	overflow: hidden;
 }
 
 #sellect_ballon{
@@ -208,6 +218,8 @@ body {
 	background-image:url(../images/matching_bg.png);
 	margin:0% 0% 0% 0%;
 	padding:0% 0% 0% 0%;
+	position:relative;
+	overflow: hidden;
 }
 
 #matching_balloon01{
